@@ -314,22 +314,22 @@
   }
 </style>
 <script>
-  import { Slider } from 'iview'
-  export default {
-    name: 'Home',
-    components: {Slider},
-    data () {
-      return {
-        msg: this.$store.state.message,
-        value: [20, 50],
-        loopindex: 0,
-        bannerSetting: {
-          radiusDot: true,
-          autoplay: true
-        }
+import { Slider } from 'iview'
+export default {
+  name: 'Home',
+  components: {Slider},
+  data () {
+    return {
+      msg: this.$store.state.message,
+      value: [20, 50],
+      loopindex: 0,
+      bannerSetting: {
+        radiusDot: true,
+        autoplay: true
       }
-    },
-    mounted () {
     }
+  },
+  mounted () {
   }
+}
 </script>
