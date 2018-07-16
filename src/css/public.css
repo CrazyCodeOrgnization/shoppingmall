@@ -1,0 +1,91 @@
+.hj_theMeColor{
+  color:#2d8cf0 ;
+}
+.hj_theMeBackColor{
+  background-color:#2d8cf0 ;
+}
+.hj_hoverColor{
+  color:#5cadff ;
+}
+.hj_hoverBackColor{
+  background-color:#5cadff ;
+}
+.hj_activeColor{
+  color:#2b85e4 ;
+}
+.hj_activeBackColor{
+  background-color:#2b85e4 ;
+}
+.hj_sucColor{
+  color: #19be6b;
+}
+.hj_sucBackColor{
+  background-color: #19be6b;
+}
+.hj_warnColor{
+  color: #ff9900;
+}
+.hj_warnBackColor{
+  background-color: #ff9900;
+}
+.hj_errorColor{
+  color: #ed3f14;
+}
+.hj_errorBackColor{
+  background-color: #ed3f14;
+}
+.hj_TitleBackColor{
+  background-color: #1c2438;
+}
+.hj_ContentBackColor{
+  background-color: #495060;
+}
+.hj_SubColor{
+  background-color: #80848f;
+}
+.hj_DisabledBackColor{
+  background-color: #bbbec4;
+}
+.hj_DisabledColor{
+  background-color: #bbbec4;
+}
+.hj_borderColor{
+   color: #dddee1;
+}
+.hj_splitColor{
+  color: #e9eaec;
+}
+.hj_BackColor{
+  color: #f8f8f9;
+}
+.hj_MainTitle{
+  color: #464c5b;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hj_SubTitle{
+  color: #464c5b;
+  font-weight: bold;
+  font-size: 14px;
+}
+.hj_SmallTitle{
+  color: #464c5b;
+  font-weight: bold;
+  font-size: 12px;
+}
+.hj_contentColor{
+  color: #657180;
+  font-size: 12px;
+}
+.hj_helpColor{
+  color: #9ea7b4;
+  font-size: 12px;
+}
+.hj_disabledColor{
+  color: #c3cbd6;
+  font-size: 12px;
+}
+.hj_linkColor{
+  color: #3399ff;
+  font-size: 12px;
+}

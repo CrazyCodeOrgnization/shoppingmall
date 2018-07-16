@@ -7,9 +7,11 @@ import store from './store/index'
 import axios from 'axios'
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+import mixins from './mixins/index'
+import './css/public.css'
 
 Vue.use(iView)
-
+Vue.mixin(mixins)
 Vue.config.productionTip = false
 
 /* 通过原型链的方式扩展vue的网络请求 */

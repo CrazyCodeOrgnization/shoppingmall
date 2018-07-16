@@ -3,7 +3,7 @@
     <Layout>
       <Header>
         <Menu mode="horizontal" theme="dark" active-name="1">
-          <Button type="primary" icon="ios-search" class="layout-search">找我想要</Button>
+          <Button @click="toGoodDetail" type="primary" icon="ios-search" class="layout-search">找我想要</Button>
           <div class="layout-nav">
             <MenuItem name="1">
               <Icon type="ios-navigate"></Icon>
@@ -13,6 +13,7 @@
               <Icon type="ios-keypad"></Icon>
               我的订单
             </MenuItem>
+
             <MenuItem name="3">
               <Icon type="ios-analytics"></Icon>
               我的商城
@@ -330,6 +331,13 @@ export default {
     }
   },
   mounted () {
+  },
+  methods: {
+    toGoodDetail () {
+      this.jump({
+        path: '/goodsDetail'
+      })
+    }
   }
 }
 </script>
