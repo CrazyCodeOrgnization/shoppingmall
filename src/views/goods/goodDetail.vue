@@ -2,7 +2,7 @@
   <div class="layout">
     <Layout>
       <!--<Header>Header</Header>-->
-      <Content class="contentPadd">
+      <Content class="contentPadd test-backcolor">
         <Row>
           <Col span="12">
             <img class="GoodImg" src="../../assets/first.jpg" alt="">
@@ -22,6 +22,7 @@
   </div>
 </template>
 <style scoped>
+
   .contentPadd{
     width: 1090px;
     margin: 0 auto;
